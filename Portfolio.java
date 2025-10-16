@@ -9,7 +9,7 @@ import java.util.*;
  */
 public class Portfolio implements Iterable<String> {
 	
-	private List<String> stocks; // change to: private Stock[] stocks;
+	private List<String> stocks; // change to: private String[] stocks;
 	
 	public Portfolio(List<String> stocks) {
 		this.stocks = stocks;
