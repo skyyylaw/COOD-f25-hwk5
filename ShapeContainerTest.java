@@ -4,7 +4,7 @@ import java.awt.*;
 import org.junit.jupiter.api.Test;
 
 /*
- * These are the test cases for Part 1 Step 1.
+ * These are the test cases for Part 1.1.
  * 
  * You should NOT modify these tests, aside from uncommenting the testShapeOnly()
  * method, which should *not* compile.
