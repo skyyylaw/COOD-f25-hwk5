@@ -2,7 +2,7 @@ import java.util.*;
 
 
 /*
- * This is the starter code for Part 2 Step 2.
+ * This is the starter code for Part 2.2.
  * 
  * Write a single "combine" method such that all tests in CombinerTest pass,
  * then comment out the methods provided here.
