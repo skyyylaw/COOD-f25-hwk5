@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 
 
 /*
- * These are the tests for Part 2 Step 2.
+ * These are the tests for Part 2.2.
  * 
  * You should NOT modify this code.
  */
