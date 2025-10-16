@@ -4,7 +4,7 @@ import java.util.*;
 import org.junit.jupiter.api.Test;
 
 /*
- * These are the test cases for Part 1 Step 2.
+ * These are the test cases for Part 1.2.
  * 
  * You should NOT modify any of these tests.
  */
