@@ -1,7 +1,7 @@
 import java.util.*;
 
 /*
- * This is the starter code for Part 4 Step 1.
+ * This is the starter code for Part 4.1.
  * 
  * Modify it so that it uses an array instead of a List to hold the stocks,
  * then change the rest of the code accordingly so that the PortfolioTest 
