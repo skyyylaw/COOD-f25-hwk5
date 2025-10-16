@@ -1,7 +1,7 @@
 import java.util.Iterator;
 
 /*
- * This is the starter code for Part 4 Step 2.
+ * This is the starter code for Part 4.2.
  * 
  * You should NOT modify this code, but need to implement the FileIterator class
  * so that it will compile and run.
