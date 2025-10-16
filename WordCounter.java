@@ -1,7 +1,7 @@
 import java.util.*;
 
 /*
- * This is the starter code for Part 3 Step 1.
+ * This is the starter code for Part 3.1.
  * 
  * Modify this code so that it uses the Singleton pattern.
  */
