@@ -1,7 +1,7 @@
 import java.util.*;
 
 /*
- * This is the starter code for Part 2 Step 1.
+ * This is the starter code for Part 2.1.
  * 
  * Write a single "listify" method such that all tests in ListifyTest pass,
  * then comment out the methods provided here.
