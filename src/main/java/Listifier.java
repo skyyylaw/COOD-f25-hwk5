@@ -10,14 +10,18 @@ import java.util.*;
 public class Listifier {
 
   public static <T> List<T> listify(T... vals) {
-      ArrayList<T> list = new ArrayList<>();
-      HashSet<T> set = new HashSet<>();
-      for (T v : vals){
-        if (!set.contains(v)){
-          list.add(v);
-          set.add(v);
-        }
+    if (vals == null) return Collections.emptyList();
+
+    ArrayList<T> list = new ArrayList<>();
+    HashSet<T> set = new HashSet<>();
+    for (T v : vals){
+      if (v == null) continue;
+
+      if (!set.contains(v)){
+        list.add(v);
+        set.add(v);
       }
-      return list;
     }
+    return list;
+  }
 }
