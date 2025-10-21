@@ -7,13 +7,22 @@ import java.util.*;
  */
 
 public class WordCounter {
-	
-	private DataSource source;
-	
+	private static WordCounter instance;
+	private static DataSource source;
+
+  public static WordCounter getInstance() {
+    return instance;
+  }
+
+  private WordCounter() {}
+
 	public WordCounter(DataSource source) { 
-		this.source = source;
+		if (instance == null) {
+      instance = new WordCounter();
+    }
+    instance.source = source;
 	}
-		
+
 	public Map<String, Integer> countWords() {
 		List<String> lines = source.read();
 		if (lines == null || lines.isEmpty()) {
