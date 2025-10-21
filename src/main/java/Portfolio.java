@@ -9,14 +9,14 @@ import java.util.*;
  */
 public class Portfolio implements Iterable<String> {
 	
-	private List<String> stocks; // change to: private String[] stocks;
-	
+	private String[] stocks;
+
 	public Portfolio(List<String> stocks) {
-		this.stocks = stocks;
+    this.stocks = stocks.toArray(new String[0]);
 	}
 	
 	public Portfolio(String[] stocks) {
-		this.stocks = Arrays.asList(stocks);
+		this.stocks = stocks;
 	}
 	
 	@Override
@@ -27,12 +27,12 @@ public class Portfolio implements Iterable<String> {
 
 			@Override
 			public boolean hasNext() {
-				return count < stocks.size();
+				return count < stocks.length;
 			}
 
 			@Override
 			public String next() {
-				return stocks.get(count++);
+				return stocks[count++];
 			}
 		
 		};
