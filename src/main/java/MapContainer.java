@@ -10,6 +10,7 @@ public class MapContainer<KeyType, ValType> {
   }
 
   public MapContainer(Map<KeyType, ValType> map) {
+    if (map == null) this.map = new HashMap<>();
     this.map = map;
   }
 
